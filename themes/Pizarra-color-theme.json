@@ -98,11 +98,15 @@
       "scope": [
         // JS
         "meta.definition entity.name",
+        "meta.class entity.name.type",
 
-        // Ruby / Python
-        "meta.class entity.name",
-        "meta.module entity.name",
+        // Ruby
+        "meta.class.ruby entity.name",
+        "meta.module.ruby entity.name",
         "meta.function.method entity.name",
+
+        // Python
+        "meta.class.python entity.name",
         "meta.function.python entity.name",
 
         // SCSS
