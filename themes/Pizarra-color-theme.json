@@ -56,6 +56,27 @@
       }
     },
 
+    // Constants:
+    {
+      "name": "Constant",
+      "scope": [
+        // numbers, booleans, ruby symbols, etc.
+        "constant",
+
+        // Javascript `this`
+        "variable.language.this",
+
+        // Ruby `self`
+        "variable.language.self",
+
+        // Python `self`
+        "variable.language.special.self"
+      ],
+      "settings": {
+        "foreground": "#D65191"
+      }
+    },
+
     // Keywords
     {
       "name": "Keyword",
