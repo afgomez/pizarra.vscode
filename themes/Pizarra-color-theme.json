@@ -22,6 +22,15 @@
       "settings": {
         "foreground": "#64686f"
       }
+    },
+
+    // Strings and chars
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#97D633"
+      }
     }
   ]
 }
