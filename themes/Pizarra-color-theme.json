@@ -48,6 +48,31 @@
       }
     },
 
+    // Identifiers: function, class and method names
+    {
+      "name": "Identifier",
+      "scope": [
+        // JS
+        "meta.definition entity.name",
+
+        // Ruby / Python
+        "meta.class entity.name",
+        "meta.module entity.name",
+        "meta.function.method entity.name",
+        "meta.function.python entity.name",
+
+        // SCSS
+        "meta.at-rule.function support.function",
+        "meta.at-rule.mixin entity.name",
+
+        // SASS
+        "support.function.name entity.name"
+      ],
+      "settings": {
+        "foreground": "#D6B233"
+      }
+    },
+
     // XML/HTML/JSX
     {
       "name": "XML Tag",
