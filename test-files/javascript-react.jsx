@@ -1,5 +1,13 @@
 import Foo from 'foo';
 
+/**
+ * Special comment just for you
+ * TODO wadus
+ * @example
+ *
+ * var foo = "bar"
+ * @param {object} user.email The user name to format
+ */
 function formatName(user) {
   return user.firstName + ' ' + user.lastName;
 }
@@ -30,6 +38,8 @@ setInterval(tick, 1000);
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
 }
+
+let email = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
 
 function App() {
   return (

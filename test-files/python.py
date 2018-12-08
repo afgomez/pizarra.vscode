@@ -1,3 +1,17 @@
+from decorators import debug, timer
+
+class TimeWaster:
+    @debug
+    def __init__(self, max_num):
+        self.max_num = max_num
+
+    @timer
+    @repeat(num_times=4)
+    def waste_time(self, num_times):
+        for _ in range(num_times):
+            sum([i**2 for i in range(self.max_num)])
+
+
 # indent your Python code to put into an email
 import glob
 
@@ -10,7 +24,9 @@ for file_name in sorted(python_files):
         for line in f:
             print '    ' + line.rstrip()
 
-
+# wadus wadus
+# TODO wadus wadus
+# FIXME wadus wadus
 
 from time import localtime
 
@@ -88,3 +104,22 @@ status_labels = {-1: 'down', 0: 'unchanged', 1: 'up'}
 for ticker, name, price, change, pct in stocks:
     status = status_labels[cmp(float(change), 0.0)]
     print '%s is %s (%s%%)' % (name, status, pct)
+
+d = {}  # type: Dict[str, int]
+
+def fib(n: int) -> Iterator[int]:
+    a, b = 0, 1
+    while a < n:
+        yield a
+        a, b = b, a+b
+
+from typing import List
+
+def hello(): # type: () -> None
+    print 'hello'
+
+class Example:
+    def method(self, lst, opt=0, *args, **kwargs):
+        # type: (List[str], int, *str, **bool) -> int
+        """Docstring comes after type comment."""
+        ...

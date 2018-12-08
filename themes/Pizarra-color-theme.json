@@ -61,7 +61,9 @@
       "name": "Constant",
       "scope": [
         // numbers, booleans, ruby symbols, etc.
-        "constant",
+        "constant.numeric",
+        "constant.language.boolean",
+        "constant.language.symbol",
 
         // Javascript `this`
         "variable.language.this",
@@ -70,7 +72,8 @@
         "variable.language.self",
 
         // Python `self`
-        "variable.language.special.self"
+        "variable.language.special.self",
+        "variable.parameter.function.language.special.self"
       ],
       "settings": {
         "foreground": "#D65191"

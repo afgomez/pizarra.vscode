@@ -8,6 +8,11 @@ module ActiveModel
     extend ActiveSupport::Concern
     include ActiveModel::AttributeMethods
 
+    def initialize
+      define
+      puts "wadus"
+    end
+
     included do
       attribute_method_suffix "="
       class_attribute :attribute_types, :_default_attributes, instance_accessor: false
