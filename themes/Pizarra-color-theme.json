@@ -143,6 +143,15 @@
       "settings": {
         "foreground": "#b4f6ff"
       }
+    },
+
+    // CSS/SCSS/SASS
+    {
+      "name": "CSS Important",
+      "scope": ["keyword.other.important"],
+      "settings": {
+        "foreground": "#D64933"
+      }
     }
   ]
 }
