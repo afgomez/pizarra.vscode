@@ -31,6 +31,27 @@
       "settings": {
         "foreground": "#97D633"
       }
+    },
+
+    // XML/HTML/JSX
+    {
+      "name": "XML Tag",
+      "scope": ["entity.name.tag", "punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#b4f6ff"
+      }
+    },
+
+    {
+      "name": "HTML Attribute",
+      "scope": [
+        "entity.other.attribute-name",
+        "meta.tag.attributes keyword.operator.assignment",
+        "meta.tag.attributes punctuation.section.embedded"
+      ],
+      "settings": {
+        "foreground": "#b4f6ff"
+      }
     }
   ]
 }
