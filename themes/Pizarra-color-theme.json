@@ -2,10 +2,33 @@
   "name": "Pizarra",
   "type": "dark",
   "colors": {
+    // Base colors
     "editor.background": "#101216",
     "editor.foreground": "#d8d9db",
+
+    // Cursor line line
+    "editor.lineHighlightBackground": "#00000059",
+    "editor.lineHighlightBorder": "#0000",
+
+    // Gutter
+    "editorGutter.background": "#1C1F25FF",
+    "editorLineNumber.foreground": "#3e424b",
+
     "activityBarBadge.background": "#007acc",
-    "sideBarTitle.foreground": "#bbbbbb"
+
+    // Sidebar
+    "sideBarTitle.foreground": "#bbbbbb",
+    "sideBar.background": "#08090b",
+
+    // Tabline
+    "tab.activeForeground": "#d8d9db",
+    "tab.inactiveBackground": "#08090b",
+    "tab.inactiveForeground": "#64686f",
+
+    // Terminal
+    "terminal.background": "#08090b",
+    "terminal.foreground": "#d8d9db",
+    "terminalCursor.foreground": "#ffffff"
   },
   "tokenColors": [
     {
