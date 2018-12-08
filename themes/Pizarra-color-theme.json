@@ -33,6 +33,21 @@
       }
     },
 
+    // Keywords
+    {
+      "name": "Keyword",
+      "scope": [
+        // Generic
+        "keyword",
+
+        // Javascript: const, let, var, class, function keywords
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#D67133"
+      }
+    },
+
     // XML/HTML/JSX
     {
       "name": "XML Tag",
