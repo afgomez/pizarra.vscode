@@ -152,6 +152,50 @@
       "settings": {
         "foreground": "#D64933"
       }
+    },
+
+    // Markdown
+    {
+      "name": "Markup heading",
+      "scope": ["markup.heading"],
+      "settings": {
+        "foreground": "#ffffff",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "Markup bold",
+      "scope": ["markup.bold"],
+      "settings": {
+        "foreground": "#ffffff",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "Markup italic",
+      "scope": ["markup.italic"],
+      "settings": {
+        "foreground": "#ffffff",
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "Markup monospace",
+      "scope": ["markup.raw", "markup.inline.raw"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+
+    {
+      "name": "Markup fenced code",
+      "scope": ["markup.fenced_code punctuation.definition"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
     }
   ]
 }
