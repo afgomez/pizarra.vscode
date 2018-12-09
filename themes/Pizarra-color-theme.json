@@ -38,13 +38,13 @@
     "editorGutter.background": "#1C1F25FF",
     "editorLineNumber.foreground": "#3e424b",
     "editorLineNumber.activeForeground": "#ebeced",
-    "editorGutter.modifiedBackground": "#6A9BEF", // FIXME
+    "editorGutter.modifiedBackground": "#52afe8",
     "editorGutter.deletedBackground": "#D64933",
     "editorGutter.addedBackground": "#97D633",
 
     // ActivityBar
     "activityBar.background": "#101216",
-    "activityBarBadge.background": "#226EEF",
+    "activityBarBadge.background": "#4089b5",
 
     // Sidebar
     "sideBarTitle.foreground": "#d8d9db",
@@ -72,8 +72,8 @@
     "terminal.ansiBrightGreen": "#B5DD77",
     "terminal.ansiYellow": "#D6B233",
     "terminal.ansiBrightYellow": "#DDC677",
-    "terminal.ansiBlue": "#226EEF", // Fixme
-    "terminal.ansiBrightBlue": "#6A9BEF", // Fixme
+    "terminal.ansiBlue": "#4089b5",
+    "terminal.ansiBrightBlue": "#52afe8",
     "terminal.ansiMagenta": "#D65191",
     "terminal.ansiBrightMagenta": "#DD96B8",
     "terminal.ansiCyan": "#67EDFF",
@@ -481,7 +481,7 @@
         "comment storage.type.class.optimize"
       ],
       "settings": {
-        "foreground": "#6A9BEF",
+        "foreground": "#4089b5",
         "fontStyle": "italic"
       }
     }
