@@ -283,10 +283,94 @@
 
     // CSS/SCSS/SASS
     {
+      "name": "CSS property name",
+      "scope": ["support.type.property-name"],
+      "settings": {
+        "foreground": "#b4f6ff"
+      }
+    },
+
+    {
+      "name": "CSS vendor property name",
+      "scope": ["support.type.vendored.property-name"],
+      "settings": {
+        "foreground": "#b4f6ff",
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "CSS property value",
+      "scope": [
+        // Normal properties
+        "support.constant.property-value",
+
+        // Colors
+        "support.constant.color",
+        "constant.other.color",
+
+        // Fonts
+        "support.constant.font-name",
+
+        // Funtions
+        "meta.property-value support.function",
+
+        // SCSS include/extend
+        "meta.at-rule.include entity.name.function",
+        "meta.at-rule.extend entity.other.attribute-name.placeholder"
+      ],
+      "settings": {
+        "foreground": "#DDC677"
+      }
+    },
+
+    {
+      "name": "CSS Selector: #id",
+      "scope": ["entity.other.attribute-name.id"],
+      "settings": {
+        "foreground": "#DD9E77"
+      }
+    },
+
+    {
+      "name": "CSS Selector: .class",
+      "scope": ["entity.other.attribute-name.class"],
+      "settings": {
+        "foreground": "#4DFFA5"
+      }
+    },
+
+    {
+      "name": "CSS Selector: [attribute]",
+      "scope": ["meta.attribute-selector", "meta.attribute-selector keyword"],
+      "settings": {
+        "foreground": "#b4f6ff"
+      }
+    },
+
+    {
       "name": "CSS Important",
       "scope": ["keyword.other.important"],
       "settings": {
         "foreground": "#D64933"
+      }
+    },
+
+    // SCSS: Extend declaration
+    {
+      "name": "SCSS Extend",
+      "scope": ["entity.other.attribute-name.placeholder"],
+      "settings": {
+        "foreground": "#D6B233"
+      }
+    },
+
+    // SCSS: reference
+    {
+      "name": "SCSS Reference",
+      "scope": ["meta.property-list entity.name.tag.reference"],
+      "settings": {
+        "foreground": "#DD96B8"
       }
     },
 
