@@ -42,10 +42,12 @@
     "editorGutter.deletedBackground": "#D64933",
     "editorGutter.addedBackground": "#97D633",
 
-    "activityBarBadge.background": "#007acc",
+    // ActivityBar
+    "activityBar.background": "#101216",
+    "activityBarBadge.background": "#226EEF",
 
     // Sidebar
-    "sideBarTitle.foreground": "#bbbbbb",
+    "sideBarTitle.foreground": "#d8d9db",
     "sideBar.background": "#08090b",
 
     // Tabline
