@@ -237,12 +237,10 @@
     {
       "name": "Type",
       "scope": [
-        // General
-        "entity.name.type",
-
         // Var and parameter annotations
         "meta.type.annotation entity.name.type",
         "meta.type.annotation support.type",
+        "meta.type.annotation meta.brace",
 
         // Generics
         "meta.type.parameters entity.name.type",
@@ -251,8 +249,8 @@
         // Return types
         "meta.return.type entity.name.type",
 
-        // Cast punctuation
-        "cast.expr meta.brace.angle",
+        // Type casts
+        "cast.expr",
 
         // Python
         "support.type.python",
