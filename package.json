@@ -1,21 +1,23 @@
 {
-    "name": "pizarra",
-    "displayName": "pizarra",
-    "description": "A calm and dark color theme",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.29.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Pizarra",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Pizarra-color-theme.json"
-            }
-        ]
-    }
+  "name": "pizarra",
+  "displayName": "pizarra",
+  "description": "A dark, calm color theme",
+  "version": "0.1.0",
+  "publisher": "afgomez",
+  "repository": "http://github.com/afgomez/pizarra.vscode",
+  "engines": {
+    "vscode": "^1.29.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pizarra",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pizarra-color-theme.json"
+      }
+    ]
+  }
 }
