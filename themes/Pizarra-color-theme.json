@@ -97,7 +97,10 @@
         "keyword",
 
         // Javascript: const, let, var, class, function keywords
-        "storage.type"
+        "storage.type",
+
+        // Python type annotations
+        "punctuation.separator.annotation"
       ],
       "settings": {
         "foreground": "#D67133"
@@ -134,6 +137,37 @@
       ],
       "settings": {
         "foreground": "#D6B233"
+      }
+    },
+
+    // Types
+    {
+      "name": "Type",
+      "scope": [
+        // General
+        "entity.name.type",
+
+        // Var and parameter annotations
+        "meta.type.annotation entity.name.type",
+        "meta.type.annotation support.type",
+
+        // Generics
+        "meta.type.parameters entity.name.type",
+        "meta.type.parameters punctuation.definition",
+
+        // Return types
+        "meta.return.type entity.name.type",
+
+        // Cast punctuation
+        "cast.expr meta.brace.angle",
+
+        // Python
+        "support.type.python",
+        "comment.typehint.type",
+        "comment.typehint.punctuation"
+      ],
+      "settings": {
+        "foreground": "#DDC677"
       }
     },
 
