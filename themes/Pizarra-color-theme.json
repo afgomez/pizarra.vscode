@@ -112,6 +112,10 @@
         "meta.definition entity.name",
         "meta.class entity.name.type",
 
+        // TS
+        "meta.enum.declaration entity.name.type",
+        "meta.interface entity.name.type",
+
         // Ruby
         "meta.class.ruby entity.name",
         "meta.module.ruby entity.name",
