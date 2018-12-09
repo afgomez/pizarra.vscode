@@ -16,6 +16,10 @@
     "editor.lineHighlightBackground": "#00000059",
     "editor.lineHighlightBorder": "#0000",
 
+    // Indent lines
+    "editorIndentGuide.background": "#ebeced15",
+    "editorIndentGuide.activeBackground": "#ebeced3d",
+
     // Selection
     "editor.selectionBackground": "#6a9bef75",
     "editor.inactiveSelectionBackground": "#6a9bef7F",
