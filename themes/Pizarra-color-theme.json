@@ -63,20 +63,29 @@
         // numbers, booleans, ruby symbols, etc.
         "constant.numeric",
         "constant.language.boolean",
-        "constant.language.symbol",
+        "constant.language.symbol"
+      ],
+      "settings": {
+        "foreground": "#D65191"
+      }
+    },
 
-        // Javascript `this`
+    // `this` / `self`
+    {
+      "name": "this",
+      "scope": [
+        // Javascript
         "variable.language.this",
 
-        // Ruby `self`
+        // Ruby
         "variable.language.self",
 
-        // Python `self`
+        // Python
         "variable.language.special.self",
         "variable.parameter.function.language.special.self"
       ],
       "settings": {
-        "foreground": "#D65191"
+        "foreground": "#DD96B8"
       }
     },
 
