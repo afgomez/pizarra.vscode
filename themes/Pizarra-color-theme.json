@@ -16,6 +16,20 @@
     "editor.lineHighlightBackground": "#00000059",
     "editor.lineHighlightBorder": "#0000",
 
+    // Selection
+    "editor.selectionBackground": "#6a9bef75",
+    "editor.inactiveSelectionBackground": "#6a9bef7F",
+    "editor.selectionHighlightBackground": "#6a9bef3f",
+    "editor.wordHighlightBackground": "#6a9bef3f",
+    "editor.wordHighlightStrongBackground": "#6a9bef3f",
+
+    // Search & replace
+    "editor.findMatchBackground": "#DDC6775d",
+    "editor.findMatchBorder": "#DDC677d0",
+
+    "editor.findMatchHighlightBackground": "#DDC67731",
+    "editor.findMatchHighlightBorder": "#DDC6775d",
+
     // Gutter
     "editorGutter.background": "#1C1F25FF",
     "editorLineNumber.foreground": "#3e424b",
