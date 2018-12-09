@@ -2,6 +2,8 @@
   "name": "Pizarra",
   "type": "dark",
   "colors": {
+    "foreground": "#ebeced",
+
     // Base colors
     "editor.background": "#101216",
     "editor.foreground": "#ebeced",
