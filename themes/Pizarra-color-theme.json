@@ -188,6 +188,9 @@
         // Javascript: const, let, var, class, function keywords
         "storage.type",
 
+        // JS/TS extends, implements, public
+        "storage.modifier",
+
         // Python type annotations
         "punctuation.separator.annotation"
       ],
@@ -203,6 +206,7 @@
         // JS
         "meta.definition entity.name",
         "meta.class entity.name.type",
+        "meta.method.declaration storage.type", // Constructor
 
         // TS
         "meta.enum.declaration entity.name.type",
