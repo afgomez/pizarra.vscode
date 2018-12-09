@@ -35,6 +35,10 @@
     "tab.inactiveBackground": "#08090b",
     "tab.inactiveForeground": "#64686f",
 
+    // Squiggles
+    "editorError.foreground": "#D64933",
+    "editorWarning.foreground": "#D6B233",
+
     // Terminal
     "terminal.background": "#08090b",
     "terminal.foreground": "#ebeced",
