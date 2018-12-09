@@ -102,6 +102,15 @@
       }
     },
 
+    // Regexp
+    {
+      "name": "String",
+      "scope": ["string.regexp"],
+      "settings": {
+        "foreground": "#9AFFCC"
+      }
+    },
+
     // Constants:
     {
       "name": "Constant",
