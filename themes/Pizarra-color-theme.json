@@ -454,6 +454,36 @@
       "settings": {
         "foreground": "#ebeced"
       }
+    },
+
+    // TODO/FIXME - Depends on vscode-language-todo
+    {
+      "name": "TODO",
+      "scope": [
+        // python
+        "comment keyword.codetag.notation",
+
+        // vscode-language-todo
+        "comment storage.type.class.todo",
+        "comment storage.type.class.fixme",
+        "comment storage.type.class.changed",
+        "comment storage.type.class.xxx",
+        "comment storage.type.class.idea",
+        "comment storage.type.class.hack",
+        "comment storage.type.class.note",
+        "comment storage.type.class.review",
+        "comment storage.type.class.nb",
+        "comment storage.type.class.bug",
+        "comment storage.type.class.question",
+        "comment storage.type.class.combak",
+        "comment storage.type.class.temp",
+        "comment storage.type.class.debug",
+        "comment storage.type.class.optimize"
+      ],
+      "settings": {
+        "foreground": "#6A9BEF",
+        "fontStyle": "italic"
+      }
     }
   ]
 }
