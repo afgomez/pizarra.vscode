@@ -262,6 +262,19 @@
       }
     },
 
+    // Inheritance
+    {
+      "name": "Inherited class",
+      "scope": [
+        "entity.other.inherited-class",
+        "meta.class entity.name.type.module"
+      ],
+      "settings": {
+        "foreground": "#67EDFF",
+        "fontStyle": "italic"
+      }
+    },
+
     // XML/HTML/JSX
     {
       "name": "XML Tag",
