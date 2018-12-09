@@ -275,6 +275,21 @@
       }
     },
 
+    // Decorators
+    {
+      "name": "Decorator",
+      "scope": [
+        "meta.function.decorator entity.name.function",
+        "meta.function.decorator punctuation.definition",
+        "meta.decorator entity.name.function",
+        "meta.decorator punctuation.decorator",
+        "meta.decorator meta.brace"
+      ],
+      "settings": {
+        "foreground": "#94c5cc"
+      }
+    },
+
     // XML/HTML/JSX
     {
       "name": "XML Tag",
