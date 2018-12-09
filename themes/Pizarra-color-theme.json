@@ -4,7 +4,7 @@
   "colors": {
     // Base colors
     "editor.background": "#101216",
-    "editor.foreground": "#d8d9db",
+    "editor.foreground": "#ebeced",
 
     // Cursor line line
     "editor.lineHighlightBackground": "#00000059",
@@ -21,13 +21,13 @@
     "sideBar.background": "#08090b",
 
     // Tabline
-    "tab.activeForeground": "#d8d9db",
+    "tab.activeForeground": "#ebeced",
     "tab.inactiveBackground": "#08090b",
     "tab.inactiveForeground": "#64686f",
 
     // Terminal
     "terminal.background": "#08090b",
-    "terminal.foreground": "#d8d9db",
+    "terminal.foreground": "#ebeced",
     "terminalCursor.foreground": "#ffffff",
 
     "terminal.ansiBlack": "#040506",
@@ -44,7 +44,7 @@
     "terminal.ansiBrightMagenta": "#DD96B8",
     "terminal.ansiCyan": "#67EDFF",
     "terminal.ansiBrightCyan": "#B4F6FF",
-    "terminal.ansiWhite": "#d8d9db",
+    "terminal.ansiWhite": "#ebeced",
     "terminal.ansiBrightWhite": "#ffffff"
   },
   "tokenColors": [
