@@ -431,6 +431,29 @@
       "settings": {
         "foreground": "#ffffff"
       }
+    },
+
+    // JSDoc
+    {
+      "name": "JSDoc: keyword",
+      "scope": ["comment storage.type"],
+      "settings": {
+        "foreground": "#DD9E77"
+      }
+    },
+    {
+      "name": "JSDoc: type",
+      "scope": ["comment entity.name.type"],
+      "settings": {
+        "foreground": "#DDC677"
+      }
+    },
+    {
+      "name": "JSDoc: variable",
+      "scope": ["comment variable.other"],
+      "settings": {
+        "foreground": "#ebeced"
+      }
     }
   ]
 }
