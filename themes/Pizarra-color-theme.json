@@ -19,6 +19,10 @@
     // Gutter
     "editorGutter.background": "#1C1F25FF",
     "editorLineNumber.foreground": "#3e424b",
+    "editorLineNumber.activeForeground": "#ebeced",
+    "editorGutter.modifiedBackground": "#6A9BEF", // FIXME
+    "editorGutter.deletedBackground": "#D64933",
+    "editorGutter.addedBackground": "#97D633",
 
     "activityBarBadge.background": "#007acc",
 
