@@ -28,7 +28,24 @@
     // Terminal
     "terminal.background": "#08090b",
     "terminal.foreground": "#d8d9db",
-    "terminalCursor.foreground": "#ffffff"
+    "terminalCursor.foreground": "#ffffff",
+
+    "terminal.ansiBlack": "#040506",
+    "terminal.ansiBrightBlack": "#64686f",
+    "terminal.ansiRed": "#D64933",
+    "terminal.ansiBrightRed": "#DD8577",
+    "terminal.ansiGreen": "#73A327",
+    "terminal.ansiBrightGreen": "#97D633",
+    "terminal.ansiYellow": "#D6B233",
+    "terminal.ansiBrightYellow": "#DDC677",
+    "terminal.ansiBlue": "#226EEF",
+    "terminal.ansiBrightBlue": "#6A9BEF",
+    "terminal.ansiMagenta": "#D65191",
+    "terminal.ansiBrightMagenta": "#DD96B8",
+    "terminal.ansiCyan": "#67EDFF",
+    "terminal.ansiBrightCyan": "#B4F6FF",
+    "terminal.ansiWhite": "#d8d9db",
+    "terminal.ansiBrightWhite": "#ffffff"
   },
   "tokenColors": [
     {
