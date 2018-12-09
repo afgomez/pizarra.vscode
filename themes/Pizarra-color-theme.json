@@ -193,7 +193,7 @@
       "name": "XML Tag",
       "scope": ["entity.name.tag", "punctuation.definition.tag"],
       "settings": {
-        "foreground": "#b4f6ff"
+        "foreground": "#67EDFF"
       }
     },
 
