@@ -73,6 +73,15 @@
       }
     },
 
+    {
+      "name": "Escape sequence",
+      "scope": ["string constant.character.escape"],
+      "settings": {
+        "foreground": "#B5DD77",
+        "fontStyle": "italic"
+      }
+    },
+
     // Constants:
     {
       "name": "Constant",
