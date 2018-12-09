@@ -343,7 +343,7 @@
       "name": "CSS Selector: #id",
       "scope": ["entity.other.attribute-name.id"],
       "settings": {
-        "foreground": "#DD9E77"
+        "foreground": "#DD8577"
       }
     },
 
@@ -438,7 +438,7 @@
       "name": "JSDoc: keyword",
       "scope": ["comment storage.type"],
       "settings": {
-        "foreground": "#DD9E77"
+        "foreground": "#DD8577"
       }
     },
     {
