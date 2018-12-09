@@ -8,7 +8,11 @@
     "editor.background": "#101216",
     "editor.foreground": "#ebeced",
 
-    // Cursor line line
+    // Cursor
+    "editorCursor.foreground": "#ffffff",
+    "editorCursor.background": "#000000",
+
+    // Cursor line
     "editor.lineHighlightBackground": "#00000059",
     "editor.lineHighlightBorder": "#0000",
 
