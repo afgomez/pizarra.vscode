@@ -82,6 +82,26 @@
       }
     },
 
+    // String interpolation
+    {
+      "name": "Interpolation",
+      "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.section.embedded"
+      ],
+      "settings": {
+        "foreground": "#B5DD77"
+      }
+    },
+
+    {
+      "name": "Embedded",
+      "scope": ["meta.template.expression", "source meta.embedded"],
+      "settings": {
+        "foreground": "#ebeced"
+      }
+    },
+
     // Constants:
     {
       "name": "Constant",
