@@ -9,6 +9,9 @@ import Foo from 'foo';
  * @param {object} user.email The user name to format
  */
 function formatName(user) {
+  if (undefined == null) {
+    return false;
+  }
   return user.firstName + ' ' + user.lastName;
 }
 

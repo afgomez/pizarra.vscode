@@ -151,8 +151,7 @@
       "scope": [
         // numbers, booleans, ruby symbols, etc.
         "constant.numeric",
-        "constant.language.boolean",
-        "constant.language.symbol"
+        "constant.language"
       ],
       "settings": {
         "foreground": "#D65191"
