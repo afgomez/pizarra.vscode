@@ -246,6 +246,7 @@
 
         // Return types
         "meta.return.type entity.name.type",
+        "meta.return.type support.type",
 
         // Type casts
         "cast.expr",

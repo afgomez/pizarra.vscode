@@ -32,7 +32,7 @@ interface LabelledValue {
   label: string;
 }
 
-function printLabel(labelledObj: LabelledValue) {
+function printLabel(labelledObj: LabelledValue): returnType {
   console.log(labelledObj.label);
 }
 
