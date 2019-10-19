@@ -264,7 +264,8 @@
       "name": "Inherited class",
       "scope": [
         "entity.other.inherited-class",
-        "meta.class entity.name.type.module"
+        "meta.class entity.name.type.module",
+        "meta.class punctuation.accessor"
       ],
       "settings": {
         "foreground": "#67EDFF",
