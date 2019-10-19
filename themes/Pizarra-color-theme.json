@@ -5,11 +5,28 @@
     "foreground": "#ffffffd8",
 
     // UI
+    "focusBorder": "#314f78",
+
+    "textLink.foreground": "#3586FF",
+
+    "list.activeSelectionBackground": "#0a60ff",
+
+    "list.invalidItemForeground": "#EF3E30",
+    "list.errorForeground": "#FF7F75",
+    "list.warningForeground": "#FFEC81",
+    "gitDecoration.addedResourceForeground": "#9CDD2D",
+    "gitDecoration.deletedResourceForeground": "#EF3E30",
+    "gitDecoration.modifiedResourceForeground": "#61B2BD",
+
+    "statusBar.background": "#208492",
+    "statusBar.debuggingBackground": "#EE8C30",
+
+    // Workbench
     "activityBar.background": "#262626",
     "activityBar.border": "#ffffff19",
     "activityBar.inactiveForeground": "#ffffff7f",
 
-    "activityBarBadge.background": "#106bff",
+    "activityBarBadge.background": "#EF3E30",
 
     "sideBar.background": "#1e1e1e",
     "sideBar.foreground": "#ffffffd8",
@@ -39,28 +56,31 @@
     "editorIndentGuide.background": "#ffffff19",
     "editorIndentGuide.activeBackground": "#ffffff3f",
 
+    "editorGroup.emptyBackground": "#1e1e1e",
+
     // Selection
-    "editor.selectionBackground": "#6a9bef75",
-    "editor.inactiveSelectionBackground": "#6a9bef7F",
-    "editor.selectionHighlightBackground": "#6a9bef3f",
-    "editor.wordHighlightBackground": "#6a9bef3f",
-    "editor.wordHighlightStrongBackground": "#6a9bef3f",
+    "selection.background": "#314F78",
+    "editor.selectionBackground": "#314F78",
+    "editor.inactiveSelectionBackground": "#363636",
+    "editor.selectionHighlightBackground": "#314F787f",
+    "editor.wordHighlightBackground": "#314F78",
+    "editor.wordHighlightStrongBackground": "#314F78",
 
     // Search & replace
-    "editor.findMatchBackground": "#DDC6775d",
-    "editor.findMatchBorder": "#DDC677d0",
+    "editor.findMatchBackground": "#FFFF0B7F",
+    "editor.findMatchBorder": "#FFFF0B",
 
-    "editor.findMatchHighlightBackground": "#DDC67731",
-    "editor.findMatchHighlightBorder": "#DDC6775d",
+    "editor.findMatchHighlightBackground": "#FFFF0B3F",
+    "editor.findMatchHighlightBorder": "#FFFF0B7F",
 
     // Gutter
-    "editorGutter.modifiedBackground": "#52afe8",
-    "editorGutter.deletedBackground": "#D64933",
-    "editorGutter.addedBackground": "#97D633",
+    "editorGutter.modifiedBackground": "#61B2BD",
+    "editorGutter.deletedBackground": "#EF3E30",
+    "editorGutter.addedBackground": "#9CDD2D",
 
     // Squiggles
-    "editorError.foreground": "#D64933",
-    "editorWarning.foreground": "#D6B233",
+    "editorError.foreground": "#EF3E30",
+    "editorWarning.foreground": "#EED130",
 
     "panel.background": "#1e1e1e",
     "panel.border": "#ffffff19",
