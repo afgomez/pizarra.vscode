@@ -92,21 +92,21 @@
     "terminal.foreground": "#ffffffd8",
     "terminalCursor.foreground": "#ffffff",
 
-    "terminal.ansiBlack": "#040506",
-    "terminal.ansiBrightBlack": "#64686f",
-    "terminal.ansiRed": "#D64933",
-    "terminal.ansiBrightRed": "#DD8577",
-    "terminal.ansiGreen": "#97D633",
-    "terminal.ansiBrightGreen": "#B5DD77",
-    "terminal.ansiYellow": "#D6B233",
-    "terminal.ansiBrightYellow": "#DDC677",
-    "terminal.ansiBlue": "#4089b5",
-    "terminal.ansiBrightBlue": "#52afe8",
-    "terminal.ansiMagenta": "#D65191",
-    "terminal.ansiBrightMagenta": "#DD96B8",
-    "terminal.ansiCyan": "#67EDFF",
-    "terminal.ansiBrightCyan": "#B4F6FF",
-    "terminal.ansiWhite": "#ebeced",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBrightBlack": "#515151",
+    "terminal.ansiRed": "#EF3E30",
+    "terminal.ansiBrightRed": "#FF7F75",
+    "terminal.ansiGreen": "#9CDD2D",
+    "terminal.ansiBrightGreen": "#C3F470",
+    "terminal.ansiYellow": "#EED130",
+    "terminal.ansiBrightYellow": "#FFEC81",
+    "terminal.ansiBlue": "#208492",
+    "terminal.ansiBrightBlue": "#61B2BD",
+    "terminal.ansiMagenta": "#E469A7",
+    "terminal.ansiBrightMagenta": "#FABADA",
+    "terminal.ansiCyan": "#90C8DA",
+    "terminal.ansiBrightCyan": "#C1E4F0",
+    "terminal.ansiWhite": "#dcdcdc",
     "terminal.ansiBrightWhite": "#ffffff"
   },
   "tokenColors": [
@@ -115,7 +115,7 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#64686f"
+        "foreground": "#ffffff3f"
       }
     },
 
@@ -124,7 +124,7 @@
       "name": "String",
       "scope": ["string"],
       "settings": {
-        "foreground": "#97D633"
+        "foreground": "#9CDD2D"
       }
     },
 
@@ -132,7 +132,7 @@
       "name": "Escape sequence",
       "scope": ["string constant.character.escape"],
       "settings": {
-        "foreground": "#B5DD77",
+        "foreground": "#C3F470",
         "fontStyle": "italic"
       }
     },
@@ -145,7 +145,7 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#B5DD77"
+        "foreground": "#C3F470"
       }
     },
 
@@ -162,7 +162,7 @@
       "name": "String",
       "scope": ["string.regexp"],
       "settings": {
-        "foreground": "#9AFFCC"
+        "foreground": "#93E0C5"
       }
     },
 
@@ -175,7 +175,7 @@
         "constant.language"
       ],
       "settings": {
-        "foreground": "#D65191"
+        "foreground": "#E469A7"
       }
     },
 
@@ -194,7 +194,7 @@
         "variable.parameter.function.language.special.self"
       ],
       "settings": {
-        "foreground": "#DD96B8"
+        "foreground": "#fabada"
       }
     },
 
@@ -215,7 +215,7 @@
         "punctuation.separator.annotation"
       ],
       "settings": {
-        "foreground": "#D67133"
+        "foreground": "#EE8C30"
       }
     },
 
@@ -248,7 +248,7 @@
         "support.function.name entity.name"
       ],
       "settings": {
-        "foreground": "#D6B233"
+        "foreground": "#EED130"
       }
     },
 
@@ -276,7 +276,7 @@
         "comment.typehint.punctuation"
       ],
       "settings": {
-        "foreground": "#DDC677"
+        "foreground": "#FFEC81"
       }
     },
 
@@ -289,7 +289,7 @@
         "meta.class punctuation.accessor"
       ],
       "settings": {
-        "foreground": "#67EDFF",
+        "foreground": "#93E0C5",
         "fontStyle": "italic"
       }
     },
@@ -305,7 +305,7 @@
         "meta.decorator meta.brace"
       ],
       "settings": {
-        "foreground": "#94c5cc"
+        "foreground": "#93E0C5"
       }
     },
 
@@ -314,7 +314,7 @@
       "name": "XML Tag",
       "scope": ["entity.name.tag", "punctuation.definition.tag"],
       "settings": {
-        "foreground": "#67EDFF"
+        "foreground": "#90C8DA"
       }
     },
 
@@ -326,7 +326,7 @@
         "meta.tag.attributes punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#b4f6ff"
+        "foreground": "#C1E4F0"
       }
     },
 
@@ -335,7 +335,7 @@
       "name": "CSS property name",
       "scope": ["support.type.property-name"],
       "settings": {
-        "foreground": "#b4f6ff"
+        "foreground": "#C1E4F0"
       }
     },
 
@@ -343,7 +343,7 @@
       "name": "CSS vendor property name",
       "scope": ["support.type.vendored.property-name"],
       "settings": {
-        "foreground": "#b4f6ff",
+        "foreground": "#C1E4F0",
         "fontStyle": "italic"
       }
     },
@@ -369,7 +369,7 @@
         "meta.at-rule.extend entity.other.attribute-name.placeholder"
       ],
       "settings": {
-        "foreground": "#DDC677"
+        "foreground": "#FFEC81"
       }
     },
 
@@ -377,7 +377,7 @@
       "name": "CSS Selector: #id",
       "scope": ["entity.other.attribute-name.id"],
       "settings": {
-        "foreground": "#DD8577"
+        "foreground": "#FF7F75"
       }
     },
 
@@ -385,7 +385,7 @@
       "name": "CSS Selector: .class",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "#4DFFA5"
+        "foreground": "#93E0C5"
       }
     },
 
@@ -393,7 +393,7 @@
       "name": "CSS Selector: [attribute]",
       "scope": ["meta.attribute-selector", "meta.attribute-selector keyword"],
       "settings": {
-        "foreground": "#b4f6ff"
+        "foreground": "#C1E4F0"
       }
     },
 
@@ -401,7 +401,7 @@
       "name": "CSS Important",
       "scope": ["keyword.other.important"],
       "settings": {
-        "foreground": "#D64933"
+        "foreground": "#EF3E30"
       }
     },
 
@@ -410,7 +410,7 @@
       "name": "SCSS Extend",
       "scope": ["entity.other.attribute-name.placeholder"],
       "settings": {
-        "foreground": "#D6B233"
+        "foreground": "#EED130"
       }
     },
 
@@ -419,7 +419,7 @@
       "name": "SCSS Reference",
       "scope": ["meta.property-list entity.name.tag.reference"],
       "settings": {
-        "foreground": "#DD96B8"
+        "foreground": "#FABADA"
       }
     },
 
@@ -472,14 +472,14 @@
       "name": "JSDoc: keyword",
       "scope": ["comment storage.type"],
       "settings": {
-        "foreground": "#DD8577"
+        "foreground": "#FF7F75"
       }
     },
     {
       "name": "JSDoc: type",
       "scope": ["comment entity.name.type"],
       "settings": {
-        "foreground": "#DDC677"
+        "foreground": "#FFEC81"
       }
     },
     {
@@ -515,7 +515,7 @@
         "comment storage.type.class.optimize"
       ],
       "settings": {
-        "foreground": "#4089b5",
+        "foreground": "#208492",
         "fontStyle": "italic"
       }
     }
