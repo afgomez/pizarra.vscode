@@ -2,7 +2,7 @@
   "name": "pizarra",
   "displayName": "pizarra",
   "description": "A dark, calm color theme",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "publisher": "afgomez",
   "repository": "http://github.com/afgomez/pizarra.vscode",
   "engines": {
