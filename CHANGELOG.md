@@ -2,6 +2,11 @@
 
 All notable changes to the "pizarra" extension will be documented in this file.
 
+## v0.2.0
+
+- Use macOS dark mode colours
+- Tweak the color palette
+
 ## v0.1.2
 
 - Fix `null` and `undefined` in Javascript.
