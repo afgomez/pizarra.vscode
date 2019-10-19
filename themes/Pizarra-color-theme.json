@@ -2,23 +2,42 @@
   "name": "Pizarra",
   "type": "dark",
   "colors": {
-    "foreground": "#ebeced",
+    "foreground": "#ffffffd8",
 
-    // Base colors
-    "editor.background": "#101216",
-    "editor.foreground": "#ebeced",
+    // UI
+    "activityBar.background": "#262626",
+    "activityBar.border": "#ffffff19",
+    "activityBar.inactiveForeground": "#ffffff7f",
 
-    // Cursor
-    "editorCursor.foreground": "#ffffff",
-    "editorCursor.background": "#000000",
+    "activityBarBadge.background": "#106bff",
 
-    // Cursor line
+    "sideBar.background": "#1e1e1e",
+    "sideBar.foreground": "#ffffffd8",
+    "sideBar.border": "#ffffff19",
+    "sideBarTitle.foreground": "#ffffff",
+    "sideBarSectionHeader.foreground": "#ffffff",
+    "sideBarSectionHeader.background": "#1e1e1e",
+    "sideBarSectionHeader.border": "#ffffff19",
+
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#262626",
+    "tab.inactiveForeground": "#ffffff7f",
+
+    "editorGutter.background": "#171717",
+    "editorLineNumber.foreground": "#ffffff3f",
+    "editorLineNumber.activeForeground": "#ffffffd8",
+
+    "editor.background": "#171717",
+    "editor.foreground": "#ffffffd8",
     "editor.lineHighlightBackground": "#00000059",
     "editor.lineHighlightBorder": "#0000",
 
+    "editorCursor.foreground": "#ffffff",
+    "editorCursor.background": "#000000",
+
     // Indent lines
-    "editorIndentGuide.background": "#ebeced15",
-    "editorIndentGuide.activeBackground": "#ebeced3d",
+    "editorIndentGuide.background": "#ffffff19",
+    "editorIndentGuide.activeBackground": "#ffffff3f",
 
     // Selection
     "editor.selectionBackground": "#6a9bef75",
@@ -35,33 +54,22 @@
     "editor.findMatchHighlightBorder": "#DDC6775d",
 
     // Gutter
-    "editorGutter.background": "#1C1F25FF",
-    "editorLineNumber.foreground": "#3e424b",
-    "editorLineNumber.activeForeground": "#ebeced",
     "editorGutter.modifiedBackground": "#52afe8",
     "editorGutter.deletedBackground": "#D64933",
     "editorGutter.addedBackground": "#97D633",
-
-    // ActivityBar
-    "activityBar.background": "#101216",
-    "activityBarBadge.background": "#4089b5",
-
-    // Sidebar
-    "sideBarTitle.foreground": "#d8d9db",
-    "sideBar.background": "#08090b",
-
-    // Tabline
-    "tab.activeForeground": "#ebeced",
-    "tab.inactiveBackground": "#08090b",
-    "tab.inactiveForeground": "#64686f",
 
     // Squiggles
     "editorError.foreground": "#D64933",
     "editorWarning.foreground": "#D6B233",
 
+    "panel.background": "#1e1e1e",
+    "panel.border": "#ffffff19",
+    "panelTitle.activeForeground": "#ffffff",
+    "panelTitle.inactiveForeground": "#ffffff7f",
+
     // Terminal
-    "terminal.background": "#08090b",
-    "terminal.foreground": "#ebeced",
+    "terminal.background": "#171717",
+    "terminal.foreground": "#ffffffd8",
     "terminalCursor.foreground": "#ffffff",
 
     "terminal.ansiBlack": "#040506",
@@ -82,13 +90,6 @@
     "terminal.ansiBrightWhite": "#ffffff"
   },
   "tokenColors": [
-    {
-      "settings": {
-        "foreground": "#eeffffff",
-        "background": "#263238ff"
-      }
-    },
-
     // Comments
     {
       "name": "Comment",
