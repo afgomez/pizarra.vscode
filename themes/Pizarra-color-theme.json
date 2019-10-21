@@ -16,10 +16,11 @@
     "list.warningForeground": "#FFEC81",
     "gitDecoration.addedResourceForeground": "#9CDD2D",
     "gitDecoration.deletedResourceForeground": "#EF3E30",
-    "gitDecoration.modifiedResourceForeground": "#61B2BD",
+    "gitDecoration.modifiedResourceForeground": "#95BFDD",
 
-    "statusBar.background": "#208492",
+    "statusBar.background": "#407CA5",
     "statusBar.debuggingBackground": "#EE8C30",
+    "statusBar.noFolderBackground": "#E469A7",
 
     // Workbench
     "activityBar.background": "#262626",
@@ -74,7 +75,7 @@
     "editor.findMatchHighlightBorder": "#FFFF0B7F",
 
     // Gutter
-    "editorGutter.modifiedBackground": "#61B2BD",
+    "editorGutter.modifiedBackground": "#95BFDD",
     "editorGutter.deletedBackground": "#EF3E30",
     "editorGutter.addedBackground": "#9CDD2D",
 
@@ -100,8 +101,8 @@
     "terminal.ansiBrightGreen": "#C3F470",
     "terminal.ansiYellow": "#EED130",
     "terminal.ansiBrightYellow": "#FFEC81",
-    "terminal.ansiBlue": "#208492",
-    "terminal.ansiBrightBlue": "#61B2BD",
+    "terminal.ansiBlue": "#407CA5",
+    "terminal.ansiBrightBlue": "#95BFDD",
     "terminal.ansiMagenta": "#E469A7",
     "terminal.ansiBrightMagenta": "#FABADA",
     "terminal.ansiCyan": "#90C8DA",
@@ -515,7 +516,7 @@
         "comment storage.type.class.optimize"
       ],
       "settings": {
-        "foreground": "#208492",
+        "foreground": "#407CA5",
         "fontStyle": "italic"
       }
     }

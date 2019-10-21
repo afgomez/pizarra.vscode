@@ -2,6 +2,10 @@
 
 All notable changes to the "pizarra" extension will be documented in this file.
 
+## v0.2.1
+
+- Make the blue color blue-er
+
 ## v0.2.0
 
 - Use macOS dark mode colours
